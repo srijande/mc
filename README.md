@@ -1,1 +1,1 @@
-# actuallyGoodMC
+# MC server
