@@ -1,0 +1,27 @@
+{
+  "name": "actuallygoodmc",
+  "version": "1.0.0",
+  "description": "minecraft server with OTA bindings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "minecraft",
+    "rcon"
+  ],
+  "author": "INIT",
+  "license": "ISC",
+  "dependencies": {
+    "@scriptserver/core": "^2.0.4",
+    "@scriptserver/essentials": "^2.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mongoose": "^5.12.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
